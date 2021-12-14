@@ -1,0 +1,16 @@
+.navbar{
+    padding: 20px 0;
+    .navbar__logo{
+        font-size: $xx-large;
+        position: relative;
+        .navbar__superscript{
+            font-size: $x-small;
+            font-weight: $font-regular;
+            position: absolute;
+            top: 3px;
+        }
+    }
+    .navbar__link{
+        margin: 0 10px;
+    }
+}

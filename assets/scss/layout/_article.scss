@@ -1,0 +1,13 @@
+.article__container{
+    
+    .article__card-container{
+        transition: 300ms ease-in-out;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.1);
+        }
+        .article__card{
+            border: none;
+        }
+    }
+}

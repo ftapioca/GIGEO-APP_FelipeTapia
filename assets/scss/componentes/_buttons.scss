@@ -1,0 +1,33 @@
+.header__button {
+    color: $white;
+    border: none;
+    font-size: $x-large;
+    font-weight: $font-thin;
+    margin: 0 5px;
+    padding: 5px 20px;
+    transition: 300ms ease;
+
+    &.header__button--blue {
+        background-color: $morning-glory;
+
+        &:hover {
+            background-color: #5bd4e4;
+        }
+
+        &:focus {
+            border: solid $gray 1px;
+        }
+    }
+
+    &.header__button--red {
+        background-color: $bean-red;
+
+        &:hover {
+            background-color: #ec4d4a;
+        }
+
+        &:focus {
+            border: solid $gray 1px;
+        }
+    }
+}
